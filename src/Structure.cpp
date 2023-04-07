@@ -74,7 +74,7 @@ THook(void, "?generateIcebergBlock@IcebergFeature@@AEBAXAEAVBlockSource@@AEAVRan
 
 #include <llapi/mc/OceanRuinStart.hpp>
 #include <llapi/mc/Dimension.hpp>
-THook(void, "?createRuin@OceanRuinStart@@QEAAXAEAVDimension@@AEAVOverworldGenerator@@AEAVRandom@@HH@Z",
+THook(void, "?createRuin@OceanRuinStart@@QEAAXAEAVDimension@@AEAVRandom@@HH@Z",
 	OceanRuinStart* _this,
 	Dimension* a2,
 	struct OverworldGenerator* a3,
@@ -114,7 +114,7 @@ THook(long long, "?place@NetherFossilFeature@@UEBA_NAEAVBlockSource@@AEBVBlockPo
 }
 
 #include <llapi/mc/ShipwreckFeature.hpp>
-THook(bool, "?isFeatureChunk@ShipwreckFeature@@MEAA_NAEBVBiomeSource@@AEAVRandom@@AEBVChunkPos@@IAEBVIPreliminarySurfaceProvider@@@Z",
+THook(bool, "?isFeatureChunk@ShipwreckFeature@@MEAA_NAEBVBiomeSource@@AEAVRandom@@AEBVChunkPos@@IAEBVIPreliminarySurfaceProvider@@AEBVDimension@@@Z",
 	ShipwreckFeature* _this,
 	const struct BiomeSource* a2,
 	struct Random* a3,
@@ -131,7 +131,7 @@ THook(void, "?buildSurfaceAt@MesaSurfaceBuilder@VanillaSurfaceBuilders@@UEBAXAEB
 }
 
 #include <llapi/mc/VillageFeature.hpp>
-THook(bool, "?isFeatureChunk@VillageFeature@@UEAA_NAEBVBiomeSource@@AEAVRandom@@AEBVChunkPos@@IAEBVIPreliminarySurfaceProvider@@@Z",
+THook(bool, "?isFeatureChunk@VillageFeature@@UEAA_NAEBVBiomeSource@@AEAVRandom@@AEBVChunkPos@@IAEBVIPreliminarySurfaceProvider@@AEBVDimension@@@Z",
 	VillageFeature* _this,
 	const struct BiomeSource* a2,
 	struct Random* a3,
@@ -142,7 +142,7 @@ THook(bool, "?isFeatureChunk@VillageFeature@@UEAA_NAEBVBiomeSource@@AEAVRandom@@
 }
 
 #include <llapi/mc/OceanMonumentFeature.hpp>
-THook(bool, "?isFeatureChunk@OceanMonumentFeature@@UEAA_NAEBVBiomeSource@@AEAVRandom@@AEBVChunkPos@@IAEBVIPreliminarySurfaceProvider@@@Z",
+THook(bool, "?isFeatureChunk@OceanMonumentFeature@@UEAA_NAEBVBiomeSource@@AEAVRandom@@AEBVChunkPos@@IAEBVIPreliminarySurfaceProvider@@AEBVDimension@@@Z",
 	OceanMonumentFeature* _this,
 	const struct BiomeSource* a2,
 	struct Random* a3,
@@ -171,7 +171,7 @@ THook(bool, "?postProcess@DesertPyramidPiece@@UEAA_NAEAVBlockSource@@AEAVRandom@
 }
 
 #include <llapi/mc/PillagerOutpostFeature.hpp>
-THook(bool, "?isFeatureChunk@PillagerOutpostFeature@@UEAA_NAEBVBiomeSource@@AEAVRandom@@AEBVChunkPos@@IAEBVIPreliminarySurfaceProvider@@@Z",
+THook(bool, "?isFeatureChunk@PillagerOutpostFeature@@UEAA_NAEBVBiomeSource@@AEAVRandom@@AEBVChunkPos@@IAEBVIPreliminarySurfaceProvider@@AEBVDimension@@@Z",
 	PillagerOutpostFeature* _this,
 	const struct BiomeSource* a2,
 	struct Random* a3,
@@ -182,7 +182,7 @@ THook(bool, "?isFeatureChunk@PillagerOutpostFeature@@UEAA_NAEBVBiomeSource@@AEAV
 }
 
 #include <llapi/mc/StrongholdFeature.hpp>
-THook(bool, "?isFeatureChunk@StrongholdFeature@@UEAA_NAEBVBiomeSource@@AEAVRandom@@AEBVChunkPos@@IAEBVIPreliminarySurfaceProvider@@@Z",
+THook(bool, "?isFeatureChunk@StrongholdFeature@@UEAA_NAEBVBiomeSource@@AEAVRandom@@AEBVChunkPos@@IAEBVIPreliminarySurfaceProvider@@AEBVDimension@@@Z",
 	StrongholdFeature* _this,
 	const struct BiomeSource* a2,
 	struct Random* a3,
@@ -193,7 +193,7 @@ THook(bool, "?isFeatureChunk@StrongholdFeature@@UEAA_NAEBVBiomeSource@@AEAVRando
 }
 
 #include <llapi/mc/WoodlandMansionFeature.hpp>
-THook(bool, "?isFeatureChunk@WoodlandMansionFeature@@MEAA_NAEBVBiomeSource@@AEAVRandom@@AEBVChunkPos@@IAEBVIPreliminarySurfaceProvider@@@Z",
+THook(bool, "?isFeatureChunk@WoodlandMansionFeature@@MEAA_NAEBVBiomeSource@@AEAVRandom@@AEBVChunkPos@@IAEBVIPreliminarySurfaceProvider@@AEBVDimension@@@Z",
 	WoodlandMansionFeature* _this,
 	const struct BiomeSource* a2,
 	struct Random* a3,
